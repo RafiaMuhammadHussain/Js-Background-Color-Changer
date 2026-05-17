@@ -30,7 +30,8 @@ This project allows users to change the webpage background with different colors
 
 ## 📸 Preview
 
-Add a screenshot of your project here.
+<img width="1887" height="906" alt="image" src="https://github.com/user-attachments/assets/74ff5709-ab60-40d5-8bc3-4c6d6b4b7b6d" />
+
 
 ## 📚 What I Learned
 
