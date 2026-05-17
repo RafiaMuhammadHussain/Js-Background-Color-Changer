@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 17rem;
+    font-size: 50px;
+    animation: jump 2s ease-in-out infinite;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#container {
+    text-align: center;
+}
+
+#btns {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background: rgb(74, 68, 68);
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+#redbtn:focus {
+    color: #e02e2e;
+}
+
+#greenbtn:focus {
+    color: #1dcb5d;
+}
+
+#bluebtn:focus {
+    color: #4b56e4;
+}
+
+#purplebtn:focus {
+    color: #a518af;
+}
+
+#orangebtn:focus {
+    color: #d64d09;
+}
+
+#pinkbtn:focus {
+    color: #d75c90;
+}
+
+#skybtn:focus {
+    color: #2e9fe0;
+}
+
+@media(max-width: 440px) {
+    h1 {
+        font-size: 40px;
+        margin-top: 15rem;
+    }
+
+    button {
+        padding: 8px 15px;
+    }
+}
